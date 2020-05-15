@@ -1,0 +1,59 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--theme-color-background);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: var(--theme-font-family);
+    font-weight: var(--theme-font-weight-light);
+    font-size: 4.5rem;
+    line-height: 1.167;
+    letter-spacing: -0.01562em;
+}
+
+h2 {
+    font-family: var(--theme-font-family);
+    font-weight: var(--theme-font-weight-light);
+    font-size: 3.75rem;
+    line-height: 1.2;
+    letter-spacing: -0.00833em;
+}
+
+h3 {
+    font-family: var(--theme-font-family);
+    font-weight: var(--theme-font-weight-regular);
+    font-size: 3rem;
+    line-height: 1.167;
+    letter-spacing: 0em;
+}
+
+h4 {
+    font-family: var(--theme-font-family);
+    font-weight: var(--theme-font-weight-regular);
+    font-size: 2.125rem;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+}
+
+h5 {
+    font-family: var(--theme-font-family);
+    font-weight: var(--theme-font-weight-regular);
+    font-size: 1.5rem;
+    line-height: 1.334;
+    letter-spacing: 0em;
+}
+
+
+h6 {
+    font-family: var(--theme-font-family);
+    font-weight: var(--theme-font-weight-medium);
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+}

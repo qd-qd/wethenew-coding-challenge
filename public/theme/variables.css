@@ -1,0 +1,28 @@
+/* light theme */
+:root {
+    --theme-color-black: #000;
+    --theme-color-white: #FFF;
+    --theme-color-background: #fafafa;
+    --theme-color-grey-200: #eeeeee;
+    --theme-color-grey-400: #bdbdbd;
+    --theme-color-grey-600: #757575;
+    --theme-color-grey-800: #424242;
+    --theme-color-text-primary: rgba(0, 0, 0, 0.87);
+    --theme-color-text-secondary: rgba(0, 0, 0, 0.54);
+
+    --theme-font-family: 'Roboto', sans-serif;
+    --theme-font-size: 0.8rem;
+    --theme-font-weight-light: 300;
+    --theme-font-weight-regular: 400;
+    --theme-font-weight-medium: 500;
+    --theme-font-weight-bold: 700;
+
+    --theme-shape-radius: 4;
+    --theme-zindex-bar: 1100;
+    --theme-app-width: 1600px;
+
+    /* Card elevation */
+    --theme-elevation-1: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+    /* Header/Footer elevation */
+    --theme-elevation-4: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
