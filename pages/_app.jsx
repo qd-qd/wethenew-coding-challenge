@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 
+import Header from '@components/Header';
 import '@theme/variables.css';
 import '@theme/global.css';
 
@@ -40,6 +41,7 @@ const MyApp = ({ Component, pageProps }) => (
         key="font"
       />
     </Head>
+    <Header />
     <Component {...pageProps} />
   </>
 );
