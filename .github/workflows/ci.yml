@@ -22,4 +22,16 @@ jobs:
         with:
           node-version: 12.x
       - name: Run linter
-        run: yarn lints
+        run: yarn install --silent && yarn lint
+  
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Run test
+        run: yarn install --silent && yarn test

@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   parser: 'babel-eslint',
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'prettier', 'jest', 'testing-library'],
   extends: [
     'airbnb',
     'eslint:recommended',
@@ -15,6 +15,9 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
+    'plugin:testing-library/recommended',
+    'plugin:testing-library/react',
   ],
   rules: {
     // @DEV: NextJs does not require you to import React into each component.

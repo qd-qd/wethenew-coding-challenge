@@ -4,3 +4,7 @@ pre-push:
     linter:
       tags: push-lint
       run: yarn run lint
+
+    test:
+      tags: push-test
+      run: yarn run test
