@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 52px;
+  padding: 0 1.5rem;
+  background-color: var(--theme-color-black);
+}
+
+.header-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: var(--theme-app-width);
+}
+
+.logo {
+  height: 40px;
+  width: 160px;
+}
+
+@media (min-width: 23.45em) {
+  .header {
+    height: 64px;
+  }
+}
