@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 const Home = () => (
   <>
@@ -28,24 +28,28 @@ const Home = () => (
       <h1 className="title">Welcome</h1>
     </main>
 
-    <style jsx>{`
-      .title {
-        margin: 0;
-        line-height: 1.15;
-        font-size: 4rem;
-      }
-    `}</style>
+    <style jsx>
+      {`
+        .title {
+          margin: 0;
+          line-height: 1.15;
+          font-size: 4rem;
+        }
+      `}
+    </style>
 
-    <style jsx global>{`
-      html,
-      body {
-        padding: 0;
-      }
+    <style jsx global>
+      {`
+        html,
+        body {
+          padding: 0;
+        }
 
-      * {
-        box-sizing: border-box;
-      }
-    `}</style>
+        * {
+          box-sizing: border-box;
+        }
+      `}
+    </style>
   </>
 );
 
