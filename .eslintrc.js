@@ -29,6 +29,9 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': {
+      'babel-module': {},
+    },
   },
   globals: {
     // @DEV: NextJs does not require you to import React into each component.
