@@ -1,0 +1,6 @@
+pre-push:
+  parallel: true
+  commands:
+    linter:
+      tags: push-lint
+      run: yarn run lint
