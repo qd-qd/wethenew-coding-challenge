@@ -37,4 +37,12 @@ module.exports = {
     // @DEV: NextJs does not require you to import React into each component.
     React: 'writable',
   },
+  overrides: [
+    {
+      files: ['*.test.js'],
+      rules: {
+        'react/jsx-filename-extension': 'off',
+      },
+    },
+  ],
 };
