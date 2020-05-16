@@ -51,7 +51,11 @@ MyApp.defaultProps = {
 };
 
 MyApp.propTypes = {
-  Component: PropTypes.node.isRequired,
+  Component: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.element,
+    PropTypes.node,
+  ]).isRequired,
   pageProps: PropTypes.shape({}),
 };
 
