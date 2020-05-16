@@ -30,7 +30,7 @@ exports[`App doesn't break snapshot 1`] = `
       sneakers
     </h1>
     <hr
-      class="separator"
+      class="separator "
     />
     <section
       class="container"
