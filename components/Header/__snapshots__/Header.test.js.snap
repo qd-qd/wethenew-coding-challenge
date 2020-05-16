@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header doesn't break snapshot 1`] = `
+<div>
+  <header
+    class="header"
+    data-testid="header"
+  >
+    <div
+      class="header-content"
+    >
+      <img
+        alt="logo"
+        class="logo"
+        src="/logo.png"
+      />
+    </div>
+  </header>
+</div>
+`;
