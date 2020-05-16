@@ -21,6 +21,10 @@
   width: 160px;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 23.45em) {
   .header {
     height: 64px;
