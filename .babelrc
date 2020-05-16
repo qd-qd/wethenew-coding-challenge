@@ -9,7 +9,9 @@
           "@db": "./db.json",
           "@api": "./utils/api",
           "@theme": "./public/theme",
-          "@components": "./components"
+          "@components": "./components",
+          "@test": "./__tests__",
+          "@pages": "./pages"
         }
       }
     ]
