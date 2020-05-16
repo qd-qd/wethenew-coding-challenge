@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint --ext .jsx,.js .",
     "lint:fix": "eslint . --fix",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "9.4.0",
