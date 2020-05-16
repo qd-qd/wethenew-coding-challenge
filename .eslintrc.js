@@ -18,6 +18,7 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:testing-library/recommended',
     'plugin:testing-library/react',
+    'plugin:cypress/recommended',
   ],
   rules: {
     // @DEV: NextJs does not require you to import React into each component.
@@ -51,6 +52,13 @@ module.exports = {
       files: ['*.test.js'],
       rules: {
         'react/jsx-filename-extension': 'off',
+      },
+    },
+    {
+      files: ['*.cy.js'],
+      rules: {
+        'jest/expect-expect': 'off',
+        'jest/valid-expect-in-promise': 'off',
       },
     },
   ],
