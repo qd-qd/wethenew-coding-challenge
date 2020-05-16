@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider doesn't break snapshot 1`] = `
+<div>
+  <section
+    class="slider"
+    data-testid="slider"
+  >
+    <div
+      class="slides"
+    >
+      <div
+        class="slide"
+        data-testid="slide-https://image.com/foo.jpg"
+      >
+        <img
+          alt=""
+          class="image"
+          src="https://image.com/foo.jpg"
+        />
+      </div>
+      <div
+        class="slide"
+        data-testid="slide-https://image.com/toto.jpg"
+      >
+        <img
+          alt=""
+          class="image"
+          src="https://image.com/toto.jpg"
+        />
+      </div>
+      <div
+        class="slide"
+        data-testid="slide-https://image.com/tata.jpg"
+      >
+        <img
+          alt=""
+          class="image"
+          src="https://image.com/tata.jpg"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;
