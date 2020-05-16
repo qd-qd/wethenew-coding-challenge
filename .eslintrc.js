@@ -24,6 +24,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/display-name': 1,
     'prettier/prettier': 'error',
+    'jsx-a11y/no-onchange': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
