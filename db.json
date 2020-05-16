@@ -2,9 +2,9 @@
   "sneakers": [
     {
       "id": "0",
-      "name": "Air Jordan Mid Iridescent ReflectiveWhite",
+      "name": "Air Jordan Mid Iridescent Reflective",
       "brand": "Jordan",
-      "slug": "jordan-air-jordan-mid-iridescent-reflectivewhite",
+      "slug": "jordan-air-jordan-mid-iridescent-reflective",
       "release_date": "1589552163",
       "price": "230",
       "size": ["36", "37", "41"],
