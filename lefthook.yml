@@ -8,3 +8,7 @@ pre-push:
     test:
       tags: push-test
       run: yarn run test
+
+    e2e:
+      tags: push-e2e
+      run: yarn run e2e
