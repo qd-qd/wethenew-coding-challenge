@@ -12,11 +12,6 @@
   font-weight: var(--theme-font-weight-regular);
 }
 
-.separator {
-  color: var(--theme-color-grey-800);
-  opacity: 0.4;
-}
-
 @media (min-width: 75em) {
   .main {
     max-width: 75em;

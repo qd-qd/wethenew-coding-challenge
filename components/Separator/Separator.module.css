@@ -1,0 +1,4 @@
+.separator {
+  color: var(--theme-color-grey-800);
+  opacity: 0.4;
+}

@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 
 import getSneakerList from '@api/getSneakerList';
 import CardList from '@components/CardList';
+import Separator from '@components/Separator';
 import styles from './index.module.css';
 
 const Home = ({ sneakers }) => (
@@ -10,7 +11,7 @@ const Home = ({ sneakers }) => (
       <span className={styles.title__count}>{`${sneakers.length} `}</span>
       sneakers
     </h1>
-    <hr className={styles.separator} />
+    <Separator />
     <CardList sneakers={sneakers} />
   </main>
 );
