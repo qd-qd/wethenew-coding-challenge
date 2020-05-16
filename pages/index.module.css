@@ -1,0 +1,25 @@
+.main {
+  width: auto;
+  margin: 1rem;
+}
+
+.title {
+  color: var(--theme-color-text-primary);
+  margin: unset;
+}
+
+.title__count {
+  font-weight: var(--theme-font-weight-regular);
+}
+
+.separator {
+  color: var(--theme-color-grey-800);
+  opacity: 0.4;
+}
+
+@media (min-width: 75em) {
+  .main {
+    max-width: 75em;
+    margin: 1rem auto;
+  }
+}
