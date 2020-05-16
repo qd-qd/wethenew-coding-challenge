@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList doesn't break snapshot 1`] = `
+<div>
+  <section
+    class="container"
+    data-testid="card-list"
+  >
+    <a
+      data-testid="card-link"
+      href="/fake-url"
+    >
+      <div
+        class="container"
+      >
+        <img
+          alt="The Fake shoes sneaker by Jest dude"
+          class="image"
+          src="/sneakers-placeholder.png"
+        />
+        <div
+          class="section-infos"
+        >
+          <p
+            class="name"
+          >
+            Fake shoes
+          </p>
+          <p
+            class="price"
+          >
+            999
+            <span>
+              €
+            </span>
+          </p>
+        </div>
+        <p
+          class="brand"
+        >
+          Jest dude
+        </p>
+      </div>
+    </a>
+    <a
+      data-testid="card-link"
+      href="/fake-url"
+    >
+      <div
+        class="container"
+      >
+        <img
+          alt="The Fake shoes sneaker by Jest dude"
+          class="image"
+          src="/sneakers-placeholder.png"
+        />
+        <div
+          class="section-infos"
+        >
+          <p
+            class="name"
+          >
+            Fake shoes
+          </p>
+          <p
+            class="price"
+          >
+            999
+            <span>
+              €
+            </span>
+          </p>
+        </div>
+        <p
+          class="brand"
+        >
+          Jest dude
+        </p>
+      </div>
+    </a>
+    <a
+      data-testid="card-link"
+      href="/fake-url"
+    >
+      <div
+        class="container"
+      >
+        <img
+          alt="The Fake shoes sneaker by Jest dude"
+          class="image"
+          src="/sneakers-placeholder.png"
+        />
+        <div
+          class="section-infos"
+        >
+          <p
+            class="name"
+          >
+            Fake shoes
+          </p>
+          <p
+            class="price"
+          >
+            999
+            <span>
+              €
+            </span>
+          </p>
+        </div>
+        <p
+          class="brand"
+        >
+          Jest dude
+        </p>
+      </div>
+    </a>
+  </section>
+</div>
+`;

@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 23.45em) {
+  .container {
+    grid-template-columns: repeat(auto-fit, 350px);
+    justify-content: space-around;
+  }
+}
