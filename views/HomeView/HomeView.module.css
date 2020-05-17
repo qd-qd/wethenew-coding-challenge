@@ -17,4 +17,8 @@
     max-width: 75em;
     margin: 1rem auto;
   }
+
+  .select__container {
+    margin: 1rem;
+  }
 }

@@ -6,10 +6,6 @@
   width: 100%;
 }
 
-.select__container {
-  margin-top: 0.5rem;
-}
-
 .select__container > select {
   display: inline-block;
   min-width: 150px;
@@ -65,5 +61,6 @@
 
   .select {
     min-width: 150px;
+    width: auto;
   }
 }
