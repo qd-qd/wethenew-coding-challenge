@@ -18,6 +18,7 @@ exports[`App doesn't break snapshot 1`] = `
   </header>
   <main
     class="main"
+    data-testid="homeview"
   >
     <h1
       class="title"
@@ -32,6 +33,50 @@ exports[`App doesn't break snapshot 1`] = `
     <hr
       class="separator "
     />
+    <div
+      class="select__container"
+    >
+      <label
+        class="label"
+        data-testid="label"
+        for="Sort by-select"
+      >
+        Sort by
+        <div
+          class="select__container"
+        >
+          <select
+            class="select"
+            data-testid="select"
+            id="Sort by-select"
+          >
+            <option
+              data-testid="option-"
+              disabled=""
+              value=""
+            />
+            <option
+              data-testid="option-PRICE_ASCENDING"
+              value="PRICE_ASCENDING"
+            >
+              price ascending
+            </option>
+            <option
+              data-testid="option-PRICE_DESCENDING"
+              value="PRICE_DESCENDING"
+            >
+              price descending
+            </option>
+            <option
+              data-testid="option-DATE_DESCENDING"
+              value="DATE_DESCENDING"
+            >
+              date descending
+            </option>
+          </select>
+        </div>
+      </label>
+    </div>
     <section
       class="container"
       data-testid="card-list"

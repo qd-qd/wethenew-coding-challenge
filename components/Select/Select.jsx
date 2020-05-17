@@ -18,7 +18,12 @@ const Select = ({ label, values, valueSelected, onChange }) => {
           data-testid="select"
         >
           {values.map(({ label: optionLabel, value }) => (
-            <option value={value} key={value} data-testid={`option-${value}`}>
+            <option
+              disabled={value === ''}
+              value={value}
+              key={value}
+              data-testid={`option-${value}`}
+            >
               {optionLabel}
             </option>
           ))}
@@ -30,6 +35,7 @@ const Select = ({ label, values, valueSelected, onChange }) => {
 
 Select.defaultProps = {
   onChange: () => {},
+  valueSelected: '',
 };
 
 Select.propTypes = {
@@ -41,8 +47,7 @@ Select.propTypes = {
         .isRequired,
     }),
   ).isRequired,
-  valueSelected: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-    .isRequired,
+  valueSelected: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   onChange: PropTypes.func,
 };
 

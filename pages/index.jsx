@@ -3,7 +3,13 @@ import PropTypes from 'prop-types';
 import getSneakerList from '@api/getSneakerList';
 import HomeView from '@views/HomeView';
 
-const Home = ({ sneakers }) => <HomeView sneakers={sneakers} />;
+import { SneakerListProvider } from '@utils/context/SneakerList';
+
+const Home = ({ sneakers }) => (
+  <SneakerListProvider initialData={sneakers}>
+    <HomeView />
+  </SneakerListProvider>
+);
 
 export async function getServerSideProps() {
   const { data: sneakers } = await getSneakerList();

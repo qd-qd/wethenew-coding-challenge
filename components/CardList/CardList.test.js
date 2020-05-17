@@ -2,6 +2,7 @@ import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 
 import sneaker from '@test/fixtures/sneaker.json';
+import { SneakerListProvider } from '@utils/context/SneakerList';
 import CardList from './CardList';
 
 const sneakerList = new Array(3)
@@ -10,7 +11,11 @@ const sneakerList = new Array(3)
 
 describe('CardList', () => {
   test('displays greeting', () => {
-    render(<CardList sneakers={sneakerList} />);
+    render(
+      <SneakerListProvider initialData={sneakerList}>
+        <CardList />
+      </SneakerListProvider>,
+    );
 
     expect(screen.getByTestId('card-list')).toBeDefined();
     expect(screen.getByTestId('card-list').childElementCount).toBe(
@@ -19,8 +24,12 @@ describe('CardList', () => {
   });
 
   test("doesn't break snapshot", () => {
-    const { container } = render(<CardList sneakers={sneakerList} />);
+    render(
+      <SneakerListProvider initialData={sneakerList}>
+        <CardList />
+      </SneakerListProvider>,
+    );
 
-    expect(container).toMatchSnapshot();
+    expect(screen.getByTestId('card-list')).toMatchSnapshot();
   });
 });

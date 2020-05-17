@@ -1,136 +1,179 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home doesn't break snapshot 1`] = `
-<div>
-  <main
-    class="main"
+<main
+  class="main"
+  data-testid="homeview"
+>
+  <h1
+    class="title"
   >
-    <h1
-      class="title"
+    <span
+      class="title__count"
     >
-      <span
-        class="title__count"
-      >
-        3 
-      </span>
-      sneakers
-    </h1>
-    <hr
-      class="separator "
-    />
-    <section
-      class="container"
-      data-testid="card-list"
+      3 
+    </span>
+    sneakers
+  </h1>
+  <hr
+    class="separator "
+  />
+  <div
+    class="select__container"
+  >
+    <label
+      class="label"
+      data-testid="label"
+      for="Sort by-select"
     >
-      <a
-        data-testid="card-link"
-        href="/fake-url"
+      Sort by
+      <div
+        class="select__container"
       >
-        <div
-          class="container"
+        <select
+          class="select"
+          data-testid="select"
+          id="Sort by-select"
         >
-          <img
-            alt="The Fake shoes sneaker by Jest dude"
-            class="image"
-            src="/sneakers-placeholder.png"
+          <option
+            data-testid="option-"
+            disabled=""
+            value=""
           />
-          <div
-            class="section-infos"
+          <option
+            data-testid="option-PRICE_ASCENDING"
+            value="PRICE_ASCENDING"
           >
-            <p
-              class="name"
-            >
-              Fake shoes
-            </p>
-            <p
-              class="price"
-            >
-              999
-              <span>
-                €
-              </span>
-            </p>
-          </div>
+            price ascending
+          </option>
+          <option
+            data-testid="option-PRICE_DESCENDING"
+            value="PRICE_DESCENDING"
+          >
+            price descending
+          </option>
+          <option
+            data-testid="option-DATE_DESCENDING"
+            value="DATE_DESCENDING"
+          >
+            date descending
+          </option>
+        </select>
+      </div>
+    </label>
+  </div>
+  <section
+    class="container"
+    data-testid="card-list"
+  >
+    <a
+      data-testid="card-link"
+      href="/fake-url"
+    >
+      <div
+        class="container"
+      >
+        <img
+          alt="The Fake shoes sneaker by Jest dude"
+          class="image"
+          src="/sneakers-placeholder.png"
+        />
+        <div
+          class="section-infos"
+        >
           <p
-            class="brand"
+            class="name"
           >
-            Jest dude
+            Fake shoes
+          </p>
+          <p
+            class="price"
+          >
+            999
+            <span>
+              €
+            </span>
           </p>
         </div>
-      </a>
-      <a
-        data-testid="card-link"
-        href="/fake-url"
-      >
-        <div
-          class="container"
+        <p
+          class="brand"
         >
-          <img
-            alt="The Fake shoes sneaker by Jest dude"
-            class="image"
-            src="/sneakers-placeholder.png"
-          />
-          <div
-            class="section-infos"
-          >
-            <p
-              class="name"
-            >
-              Fake shoes
-            </p>
-            <p
-              class="price"
-            >
-              999
-              <span>
-                €
-              </span>
-            </p>
-          </div>
+          Jest dude
+        </p>
+      </div>
+    </a>
+    <a
+      data-testid="card-link"
+      href="/fake-url"
+    >
+      <div
+        class="container"
+      >
+        <img
+          alt="The Fake shoes sneaker by Jest dude"
+          class="image"
+          src="/sneakers-placeholder.png"
+        />
+        <div
+          class="section-infos"
+        >
           <p
-            class="brand"
+            class="name"
           >
-            Jest dude
+            Fake shoes
+          </p>
+          <p
+            class="price"
+          >
+            999
+            <span>
+              €
+            </span>
           </p>
         </div>
-      </a>
-      <a
-        data-testid="card-link"
-        href="/fake-url"
-      >
-        <div
-          class="container"
+        <p
+          class="brand"
         >
-          <img
-            alt="The Fake shoes sneaker by Jest dude"
-            class="image"
-            src="/sneakers-placeholder.png"
-          />
-          <div
-            class="section-infos"
-          >
-            <p
-              class="name"
-            >
-              Fake shoes
-            </p>
-            <p
-              class="price"
-            >
-              999
-              <span>
-                €
-              </span>
-            </p>
-          </div>
+          Jest dude
+        </p>
+      </div>
+    </a>
+    <a
+      data-testid="card-link"
+      href="/fake-url"
+    >
+      <div
+        class="container"
+      >
+        <img
+          alt="The Fake shoes sneaker by Jest dude"
+          class="image"
+          src="/sneakers-placeholder.png"
+        />
+        <div
+          class="section-infos"
+        >
           <p
-            class="brand"
+            class="name"
           >
-            Jest dude
+            Fake shoes
+          </p>
+          <p
+            class="price"
+          >
+            999
+            <span>
+              €
+            </span>
           </p>
         </div>
-      </a>
-    </section>
-  </main>
-</div>
+        <p
+          class="brand"
+        >
+          Jest dude
+        </p>
+      </div>
+    </a>
+  </section>
+</main>
 `;

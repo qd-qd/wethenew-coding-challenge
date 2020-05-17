@@ -12,7 +12,8 @@
           "@components": "./components",
           "@test": "./__tests__",
           "@pages": "./pages",
-          "@views": "./views"
+          "@views": "./views",
+          "@utils": "./utils"
         }
       }
     ]
