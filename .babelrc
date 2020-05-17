@@ -11,7 +11,8 @@
           "@theme": "./public/theme",
           "@components": "./components",
           "@test": "./__tests__",
-          "@pages": "./pages"
+          "@pages": "./pages",
+          "@views": "./views"
         }
       }
     ]

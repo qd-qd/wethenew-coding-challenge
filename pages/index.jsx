@@ -1,20 +1,9 @@
 import PropTypes from 'prop-types';
 
 import getSneakerList from '@api/getSneakerList';
-import CardList from '@components/CardList';
-import Separator from '@components/Separator';
-import styles from './index.module.css';
+import HomeView from '@views/HomeView';
 
-const Home = ({ sneakers }) => (
-  <main className={styles.main}>
-    <h1 className={styles.title}>
-      <span className={styles.title__count}>{`${sneakers.length} `}</span>
-      sneakers
-    </h1>
-    <Separator />
-    <CardList sneakers={sneakers} />
-  </main>
-);
+const Home = ({ sneakers }) => <HomeView sneakers={sneakers} />;
 
 export async function getServerSideProps() {
   const { data: sneakers } = await getSneakerList();

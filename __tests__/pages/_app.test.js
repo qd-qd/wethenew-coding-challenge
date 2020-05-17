@@ -25,3 +25,14 @@ describe('App', () => {
     expect(container).toMatchSnapshot();
   });
 });
+
+/*
+ ** @dev: nextjs pages generation is based on file system structure.
+ ** Every files with .js/.jsx extension will be page, so if you create
+ ** *.test.js files inside pages directory, this file will be exposed
+ ** as a page by nextjs. That's why I created this global directory.
+ ** All page's tests should be localized here.
+ ** I know a solution to counter default nextjs behaviour but that required
+ ** some configuration and I decided that's out of the scope of this technical
+ ** test
+ */
